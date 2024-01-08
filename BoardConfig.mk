@@ -233,5 +233,8 @@ CONFIG_ACS := true
 CONFIG_IEEE80211AC := true
 CONFIG_IEEE80211AX := true
 
+# Properties
+TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
+
 # Inherit proprietary blobs
 include vendor/xiaomi/redwood/BoardConfigVendor.mk
