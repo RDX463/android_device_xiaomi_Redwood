@@ -427,7 +427,8 @@ PRODUCT_PACKAGES += \
     redwoodGLSettingsProviderOverlay \
     redwoodGLWifiOverlay \
     redwoodINSettingsProviderOverlay \
-    redwoodINWifiOverlay
+    redwoodINWifiOverlay \
+    redwoodNfcOverlay
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
