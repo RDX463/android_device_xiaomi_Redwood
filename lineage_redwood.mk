@@ -18,10 +18,16 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
 
 # Device props
+TARGET_SUPPORTS_BLUR := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_DISABLE_EPPE := true
 TARGET_DEBLOAT := true
+TARGET_BOOT_ANIMATION_RES := 1080
+
+SAKURA_BUILD_TYPE := gapps
+SAKURA_OFFICIAL := true
+SAKURA_MAINTAINER := RDX463
 
 PRODUCT_BRAND := POCO
 PRODUCT_DEVICE := redwood
